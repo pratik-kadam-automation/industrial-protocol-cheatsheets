@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 640" width="1080" height="640" font-family="Arial, Helvetica, sans-serif"><rect width="1080" height="640" fill="#0f172a"/>
+<text x="540" y="60" text-anchor="middle" font-size="32" font-weight="bold" fill="#fff">Same number, four layouts</text>
+<text x="540" y="96" text-anchor="middle" font-size="20" fill="#94a3b8">23.5 as float32 = 41 BC 00 00. Letters A-D are the bytes of the real value, A first.</text>
+<text x="368" y="150" text-anchor="middle" font-size="17" fill="#cbd5e1">register 0</text><text x="708" y="150" text-anchor="middle" font-size="17" fill="#cbd5e1">register 1</text>
+<text x="70" y="217" font-size="28" font-weight="bold" fill="#fff">ABCD</text>
+<rect x="200" y="175" width="160" height="64" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
+<text x="280" y="205" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">41</text>
+<text x="280" y="229" text-anchor="middle" font-size="15" fill="#38bdf8">byte A</text>
+<rect x="370" y="175" width="160" height="64" rx="10" fill="#1e293b" stroke="#a78bfa" stroke-width="3"/>
+<text x="450" y="205" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">BC</text>
+<text x="450" y="229" text-anchor="middle" font-size="15" fill="#a78bfa">byte B</text>
+<rect x="540" y="175" width="160" height="64" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="3"/>
+<text x="620" y="205" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">00</text>
+<text x="620" y="229" text-anchor="middle" font-size="15" fill="#34d399">byte C</text>
+<rect x="710" y="175" width="160" height="64" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="3"/>
+<text x="790" y="205" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">00</text>
+<text x="790" y="229" text-anchor="middle" font-size="15" fill="#fbbf24">byte D</text>
+<path d="M200,251 L200,257 L528,257 L528,251" fill="none" stroke="#475569" stroke-width="2"/>
+<path d="M540,251 L540,257 L868,257 L868,251" fill="none" stroke="#475569" stroke-width="2"/>
+<text x="70" y="317" font-size="28" font-weight="bold" fill="#fff">CDAB</text>
+<rect x="200" y="275" width="160" height="64" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="3"/>
+<text x="280" y="305" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">00</text>
+<text x="280" y="329" text-anchor="middle" font-size="15" fill="#34d399">byte C</text>
+<rect x="370" y="275" width="160" height="64" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="3"/>
+<text x="450" y="305" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">00</text>
+<text x="450" y="329" text-anchor="middle" font-size="15" fill="#fbbf24">byte D</text>
+<rect x="540" y="275" width="160" height="64" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
+<text x="620" y="305" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">41</text>
+<text x="620" y="329" text-anchor="middle" font-size="15" fill="#38bdf8">byte A</text>
+<rect x="710" y="275" width="160" height="64" rx="10" fill="#1e293b" stroke="#a78bfa" stroke-width="3"/>
+<text x="790" y="305" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">BC</text>
+<text x="790" y="329" text-anchor="middle" font-size="15" fill="#a78bfa">byte B</text>
+<path d="M200,351 L200,357 L528,357 L528,351" fill="none" stroke="#475569" stroke-width="2"/>
+<path d="M540,351 L540,357 L868,357 L868,351" fill="none" stroke="#475569" stroke-width="2"/>
+<text x="70" y="417" font-size="28" font-weight="bold" fill="#fff">BADC</text>
+<rect x="200" y="375" width="160" height="64" rx="10" fill="#1e293b" stroke="#a78bfa" stroke-width="3"/>
+<text x="280" y="405" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">BC</text>
+<text x="280" y="429" text-anchor="middle" font-size="15" fill="#a78bfa">byte B</text>
+<rect x="370" y="375" width="160" height="64" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
+<text x="450" y="405" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">41</text>
+<text x="450" y="429" text-anchor="middle" font-size="15" fill="#38bdf8">byte A</text>
+<rect x="540" y="375" width="160" height="64" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="3"/>
+<text x="620" y="405" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">00</text>
+<text x="620" y="429" text-anchor="middle" font-size="15" fill="#fbbf24">byte D</text>
+<rect x="710" y="375" width="160" height="64" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="3"/>
+<text x="790" y="405" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">00</text>
+<text x="790" y="429" text-anchor="middle" font-size="15" fill="#34d399">byte C</text>
+<path d="M200,451 L200,457 L528,457 L528,451" fill="none" stroke="#475569" stroke-width="2"/>
+<path d="M540,451 L540,457 L868,457 L868,451" fill="none" stroke="#475569" stroke-width="2"/>
+<text x="70" y="517" font-size="28" font-weight="bold" fill="#fff">DCBA</text>
+<rect x="200" y="475" width="160" height="64" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="3"/>
+<text x="280" y="505" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">00</text>
+<text x="280" y="529" text-anchor="middle" font-size="15" fill="#fbbf24">byte D</text>
+<rect x="370" y="475" width="160" height="64" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="3"/>
+<text x="450" y="505" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">00</text>
+<text x="450" y="529" text-anchor="middle" font-size="15" fill="#34d399">byte C</text>
+<rect x="540" y="475" width="160" height="64" rx="10" fill="#1e293b" stroke="#a78bfa" stroke-width="3"/>
+<text x="620" y="505" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">BC</text>
+<text x="620" y="529" text-anchor="middle" font-size="15" fill="#a78bfa">byte B</text>
+<rect x="710" y="475" width="160" height="64" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
+<text x="790" y="505" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">41</text>
+<text x="790" y="529" text-anchor="middle" font-size="15" fill="#38bdf8">byte A</text>
+<path d="M200,551 L200,557 L528,557 L528,551" fill="none" stroke="#475569" stroke-width="2"/>
+<path d="M540,551 L540,557 L868,557 L868,551" fill="none" stroke="#475569" stroke-width="2"/>
+<text x="540" y="605" text-anchor="middle" font-size="20" fill="#cbd5e1">Read a value you can see on the device display, then pick the order that reproduces it.</text></svg>
